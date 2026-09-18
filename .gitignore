@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and generated data
+brain-tumor-mri-dataset/
+processed_Training_data/
+processed_Testing_data/
+data/
+
+# Trained models / large binaries
+*.h5
+*.keras
+*.hdf5
+models/
+
+# Local logs / secrets
+*.log
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local notebook artifacts
+/content/
